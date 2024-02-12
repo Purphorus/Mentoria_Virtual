@@ -122,7 +122,7 @@ menu = st.sidebar.radio(
 # Definição do conteúdo de cada seção
 if menu == "Sobre a Mentoria":
     st.header("Sobre a Mentoria")
-    st.write("Conheça mentoria")
+    st.write("Conheça mentoria (acesse o menu na lateral superior para mais informações)")
     with st.expander("Aulas Virtuais"):
             aulas_virtuais()
         
